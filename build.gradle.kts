@@ -44,6 +44,8 @@ compose.desktop {
         }
 
         nativeDistributions {
+            modules("jdk.unsupported")
+
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "image-divider-ui"
             packageVersion = "1.0.0"
